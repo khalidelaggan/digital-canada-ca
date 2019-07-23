@@ -5,9 +5,7 @@ description: >-
   Bien qu’adopter de nouveaux outils au gouvernement soit un peu comme vivre une
   crise de croissance, innover à l’interne est tout aussi important qu’innover
   dans la façon dont nous servons nos clients à l’externe.
-author: >-
-  Laura Sanschagrin, conseillère en intelligence d’affaires, SAS du RPC, Emploi
-  et Développement social Canada
+author: 'Laura Sanschagrin, conseillère en intelligence d’affaires, SAS du RPC, ESDC'
 date: 2019-07-22T19:10:49.223Z
 image: /img/cds/esdc-innovation-fr.jpg
 image-alt: >-
