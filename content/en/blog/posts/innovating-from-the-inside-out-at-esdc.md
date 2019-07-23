@@ -5,9 +5,7 @@ description: >-
   While there can be growing pains when adopting new tools in government,
   internal innovation can be just as important as innovating the way we serve
   our clients externally.
-author: >-
-  Laura Sanschagrin, Business Intelligence Consultant, CPP SIS, Employment and
-  Social Development Canada
+author: 'Laura Sanschagrin, Business Intelligence Consultant, CPP SIS, ESDC'
 date: 2019-07-22T19:03:28.712Z
 image: /img/cds/esdc-innovation-en.jpg
 image-alt: >-
