@@ -96,8 +96,10 @@ p, main ul, main ol {
 	}
 }
 
+// purpose of this style is to remove space between bullet point text that follows paragraphs
 main p + ul {
 	margin-top:-0.5rem;
+	background: red;
 
 	@include tablet {
 		margin-top:-1.0rem;
