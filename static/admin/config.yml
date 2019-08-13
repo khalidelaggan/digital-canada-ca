@@ -9,7 +9,7 @@ media_folder: "static/img/cds"
 public_folder: "/img/cds"
 collections:
   - name: "blog"
-    label: "(EN) Blog Post"
+    label: "(EN) Blog Post."
     folder: "content/en/blog/posts"
     create: true
     fields:
