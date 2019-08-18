@@ -1,8 +1,8 @@
-## Netlify Meta fields references and form structure 
+## Netlify Meta fields and page form structure references
 
-### [/blog] Section CMS page 
+### [/blog] - [Blog page Netlify](https://digital.canada.ca/admin/#/collections/blog/new)
 
-```javascript
+```
 - name: "blog"
     label: "(EN) Blog Post."
     folder: "content/en/blog/posts"
@@ -20,9 +20,9 @@
       - {label: "Thumbnail", name: "thumb", widget: "hidden", default: "" }
       - {label: "Processed", name: "processed", widget: "hidden", default: "" }
 ```
-### [/work-with-us/] CMS page 
+### [/work-with-us/] - [Team page Netlify](https://digital.canada.ca/admin/#/collections/join-our-team/new)
 
-```javascript
+```
 - name: "work-with-us"
     label: "(EN) Job Postings"
     folder: "content/en/work-with-us/positions"
@@ -37,10 +37,10 @@
       - { label: "Posting ID / Identification de l’affichage", hint: "Use the same ID for both languages / Utilisez la même identification dans les deux langues", name: "translationKey", widget: "string"}
       - { label: "Body / Corps", name: "body", widget: "markdown"}
 ```
-### [/products/] CMS page 
+### [/products/] - [Product page Netlify](https://digital.canada.ca/admin/#/collections/products/new)
 
 
-```javascript
+```
 - name: "products"
     label: "(EN) Products"
     folder: "content/en/products/products"
@@ -73,9 +73,10 @@
           - { label: "URL / Lien URL", name: "url", widget: "string"}
 ```
 
-### [/meet-the-team/] Page excutive section CMS
+### [/meet-the-team/] - [Job Posting Netlify](https://digital.canada.ca/admin/#/collections/datafiles/entries/team)
 
-```javascript
+
+```
   - label: "Team"
         name: "team"
         file: "data/team.yml"
@@ -100,9 +101,10 @@
               - {label: "Processed / Traité", name: "processed", widget: "hidden", default: "" }
 ```
 
-### [/meet-the-team/] team section CMS
+### [/meet-the-team/] - [Team page Netlify](https://digital.canada.ca/admin/#/collections/datafiles/entries/team)
+
        
-```javascript
+```
           - label: team
             name: team
             widget: list
@@ -122,3 +124,4 @@
               - {label: "Archived / Archivé", name: "archived", widget: "boolean", default: false}
               - {label: "Processed / Traité", name: "processed", widget: "hidden", default: "" }
 ```
+
