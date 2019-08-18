@@ -1,6 +1,9 @@
+
 ## Netlify Meta fields and page form structure references
 
 ### [/blog] - [Blog page Netlify](https://digital.canada.ca/admin/#/collections/blog/new)
+
+
 
 ```
 - name: "blog"
@@ -20,6 +23,32 @@
       - {label: "Thumbnail", name: "thumb", widget: "hidden", default: "" }
       - {label: "Processed", name: "processed", widget: "hidden", default: "" }
 ```
+
+
+> Please note that fileds aren't by default set to be required at the time this docs is written however, if one of these entries are missing it makes the page vulnerable to error.
+
+|  Field         |Description               |Note                         |
+|----------------|-------------------------------|-----------------------------|
+|`title`           |blog title                 |required                  |
+|`description`     |Description           |required            |
+|`author`          |Blog Author| required|
+|`date`    |Blog publish date            |required            |
+|`image`   |an image upload widget            |required           |
+|`translationKey`         |Blog ID  |page title split by hyphen(all lowercase), use the same ID for both languages|
+|`body`            |Blog Body Content|Blog body|
+
+
+
+#### Blog's Hidden Fields 
+
+
+|  Field         |Description               |Note                         |
+|----------------|-------------------------------|-----------------------------|
+|layout           |`'blog title'`                |'mandatory'                  |
+|thumb     |`[/util/processBlogImages.js]`|'automatically Generated'|
+|processed          |`timestamp by [/util/processBlogImages.js]`|'automatically Generated'|
+
+
 ### [/work-with-us/] - [Team page Netlify](https://digital.canada.ca/admin/#/collections/join-our-team/new)
 
 ```
