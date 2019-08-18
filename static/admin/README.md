@@ -25,7 +25,7 @@
 ```
 
 
-> Please note that fileds aren't by default set to be required at the time this docs is written however, if one of these entries are missing it makes the page vulnerable to error.
+> Please note that fileds aren't by default set to be required at the time this docs is written however, if one of these entries are missing it makes the page vulnerable to errors and potentially break the CMS.
 
 |  Field         |Description               |Note                         |
 |----------------|-------------------------------|-----------------------------|
@@ -44,9 +44,9 @@
 
 |  Field         |Description               |Note                         |
 |----------------|-------------------------------|-----------------------------|
-|layout           |`'blog title'`                |'mandatory'                  |
-|thumb     |`[/util/processBlogImages.js]`|'automatically Generated'|
-|processed          |`timestamp by [/util/processBlogImages.js]`|'automatically Generated'|
+|`layout`           |'blog title'              |'mandatory'                  |
+|`thumb`     |[/util/processBlogImages.js]|'automatically Generated'|
+|`processed`          |timestamp by [/util/processBlogImages.js]|'automatically Generated'|
 
 
 ### [/work-with-us/] - [Team page Netlify](https://digital.canada.ca/admin/#/collections/join-our-team/new)
