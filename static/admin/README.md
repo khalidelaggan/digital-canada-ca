@@ -132,7 +132,8 @@
 
 
 
-##### Contact [single/Multi List]
+<ins>Contact [single/Multi List]</ins>
+
 
 
 |  Field         |Description                    |Note                         |
@@ -140,23 +141,22 @@
 |`name`          | Dev name                      |`required` `string`          |
 |`email`         | CDS email address             |`optional` `string`          |
 
-##### Partner [single/Multi List]
-
+<ins>Partner [single/Multi List]</ins>
+ 
 
 |  Field         |Description                    |Note                         |
 |----------------|-------------------------------|-----------------------------|
 |`name`           | partner name                 |`required` `string`          |
 |`url`            | link                         |`optional` `string`          |
  
-##### Status
+<ins>Status</ins>
 
 |  Field         |Description                    |Note                         |
 |----------------|-------------------------------|-----------------------------|
 |`status`        | Project status                | `required` `select[in-flight,past]`   |
 
 
-##### Links [single/Multi-array List]
-
+<ins>Links [single/Multi List]</ins>
 
 |  Field         |Description                    |Note                         |
 |----------------|-------------------------------|-----------------------------|
