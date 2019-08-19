@@ -25,7 +25,7 @@
 ```
 
 
-> Please note that fileds aren't by default set to be required at the time this docs is written however, if one of these entries are missing it makes the page vulnerable to errors and potentially break the CMS.
+> Please note that the below fields are not required. However, if one of these entries is missing, it makes the page vulnerable to errors and potentially may break the CMS.
 
 |  Field         |Description                    |Note                         |
 |----------------|-------------------------------|-----------------------------|
